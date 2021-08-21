@@ -1,7 +1,7 @@
 <?php
 
 namespace abstracts\real\phpTemplate;
-use abstracts\real\BasePageTemplate;
+use abstracts\real\abstracts\BasePageTemplate;
 /**
  * Вариант шаблонов страниц PHPTemplate.
  */

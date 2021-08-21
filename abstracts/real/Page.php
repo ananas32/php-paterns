@@ -9,7 +9,6 @@ use abstracts\real\interfaces\TemplateFactory;
  */
 class Page
 {
-
     public $title;
 
     public $content;

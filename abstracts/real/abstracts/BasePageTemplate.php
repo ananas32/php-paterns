@@ -1,8 +1,10 @@
 <?php
 
-namespace abstracts\real;
+namespace abstracts\real\abstracts;
+
 use abstracts\real\interfaces\PageTemplate;
 use abstracts\real\interfaces\TitleTemplate;
+
 /**
  * Шаблон страниц использует под-шаблон заголовков, поэтому мы должны
  * предоставить способ установить объект для этого под-шаблона. Абстрактная

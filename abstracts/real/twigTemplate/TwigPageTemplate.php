@@ -2,7 +2,7 @@
 
 namespace abstracts\real\twigTemplate;
 
-use abstracts\real\BasePageTemplate;
+use abstracts\real\abstracts\BasePageTemplate;
 
 /**
  * Вариант шаблонов страниц Twig.
