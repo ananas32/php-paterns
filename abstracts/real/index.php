@@ -5,6 +5,7 @@ namespace abstracts\real;
 
 use abstracts\real\phpTemplate\PHPTemplateFactory;
 use abstracts\real\twigTemplate\TwigTemplateFactory;
+require_once '../functions.php';
 require_once '../../autoload.php';
 
 /**
