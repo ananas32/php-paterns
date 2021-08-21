@@ -2,11 +2,7 @@
 
 namespace abstracts\conceptual;
 
-spl_autoload_register(function ($path) {
-    $className = end(explode('\\', $path));
-    require_once $className . '.php';
-});
-
+require_once '../../autoload.php';
 
 /**
  * Клиентский код работает с фабриками и продуктами только через абстрактные
